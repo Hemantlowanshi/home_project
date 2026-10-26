@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:home_project/profile_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -20,6 +21,15 @@ class HomePage extends StatelessWidget {
           'Welcome to Flutter Page!',
           style: TextStyle(fontSize: 24, color: Colors.black),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.navigate_next),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const Profile_page()),
+          );
+        },
       ),
     );
   }
