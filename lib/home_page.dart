@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'Welcome to Flutter!',
+          'Welcome to Flutter Page!',
           style: TextStyle(fontSize: 24, color: Colors.black),
         ),
       ),
