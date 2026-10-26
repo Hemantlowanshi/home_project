@@ -17,8 +17,8 @@ class Profile_page extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'Welcome to Profile Page!',
-          style: TextStyle(fontSize: 24, color: Colors.green),
+          'Welcome to Profile Page !',
+          style: TextStyle(fontSize: 20, color: Colors.black),
         ),
       ),
     );
